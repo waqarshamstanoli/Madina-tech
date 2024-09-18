@@ -5,7 +5,7 @@
       <v-col cols="12" lg="12" md="12" sm="12">
         <v-card width="100%" color="transparent" class="elevation-0 mx-auto mt-md-16">
           <v-card-text>
-            <h2 class="secondary--text text-center text--h2 headingRight">WORK EXPERIENCE</h2>
+            <h2 class="secondary--text text-center text--h2 ">OUR CLIENTS</h2>
            
           </v-card-text>
           
@@ -39,44 +39,14 @@ export default {
     ]
     };
   },
-  methods: {
-    
-  },
+ 
 };
 </script>
 
 <style scoped>
 
-.scaled {
-  transform: scale(1.5); /* Increase the scale value as desired */
-  transition: transform 1.9s ease; /* Add a smooth transition effect */
-}
-/* .dark{
-  transform: scale(5.5);
-} */
-.glass {
-  width: 200px;
-  height: 400px;
-}
-@media only screen and(max-width: 400) {
-  .glass {
-    width: 100px;
-    height: 200px;
-  }
-}
-.borderRadius {
-  border-radius: 40px;
-}
-@media only screen and (max-width: 767px) {
 
-.v-application .text--h5{
-  font-size: 18px !important;
-}
-.v-application .text--h4{
-  font-size: 14px !important;
-}
-.text-24{
-  font-size: 24px !important;
-}
-}
+
+
+
 </style>
